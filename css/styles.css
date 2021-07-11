@@ -1,51 +1,42 @@
 body {
 	margin: 0px;
+	padding: 0px;
 	background-color: #000000;
-
 }
 
-.topbar {
-	background-color: #4d4d4d;
-	width: 1365px;
-	height: 38px;
-	float: left;
+p {
+	color: #fff;
+	font-family: Helvetica, Times New Roman, sans-serif;
+	font-size: 28px;
+}
 
+a {
+	text-decoration: none;
+	font-family: Calibri, Times New Roman, sans-serif;
+	color: #fff;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #000;
+	height: 50px;
+	padding: 10px 70px;
 }
 
 .logo {
-	font-family: Times New Roman, Poppins, Arial, sans-serif;
-	font-size: 26px;
-	float: left;
+	font-family: Times New Roman, sans-serif;
 	color: #edc602;
-	margin-top: 0px;
-	margin-left: 5px;
 }
 
-.textstyle {
-	color: white;
-	font-family: Poppins, Arial, sans-serif;
-
-
+.links {
+	font-size: 24px;
+	display: flex;
+	justify-content: space-around;
+	width: 250px;
 }
 
-.contact {
-	color: #fff;
-	font-family: Poppins, Arial, sans-serif;
-	font-weight: 50;
-	float: right;
-	margin-right: 20px;
-	margin-top: 3px;
-	font-size: 28px;
-
-}
-
-.store {
-	color: #fff;
-	font-family: Poppins, Arial, sans-serif;
-	font-weight: 50;
-	float: right;
-	margin-right: 10px;
-	margin-top: 3px;
-	font-size: 28px;
-
+.links a:hover {
+	color: red;
 }
