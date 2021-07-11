@@ -1,0 +1,51 @@
+body {
+	margin: 0px;
+	background-color: #000000;
+
+}
+
+.topbar {
+	background-color: #4d4d4d;
+	width: 1365px;
+	height: 38px;
+	float: left;
+
+}
+
+.logo {
+	font-family: Times New Roman, Poppins, Arial, sans-serif;
+	font-size: 26px;
+	float: left;
+	color: #edc602;
+	margin-top: 0px;
+	margin-left: 5px;
+}
+
+.textstyle {
+	color: white;
+	font-family: Poppins, Arial, sans-serif;
+
+
+}
+
+.contact {
+	color: #fff;
+	font-family: Poppins, Arial, sans-serif;
+	font-weight: 50;
+	float: right;
+	margin-right: 20px;
+	margin-top: 3px;
+	font-size: 28px;
+
+}
+
+.store {
+	color: #fff;
+	font-family: Poppins, Arial, sans-serif;
+	font-weight: 50;
+	float: right;
+	margin-right: 10px;
+	margin-top: 3px;
+	font-size: 28px;
+
+}
