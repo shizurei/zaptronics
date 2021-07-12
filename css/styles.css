@@ -40,3 +40,7 @@ nav {
 .links a:hover {
 	color: red;
 }
+
+p a:hover {
+	color: red;
+}
