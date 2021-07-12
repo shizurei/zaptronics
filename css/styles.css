@@ -1,11 +1,11 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	background: linear-gradient(to right,#3d3c3c, #000000, #000000) ;
+	background: black ;
 }
 
 p {
-	color: #fff;
+	color: white;
 	font-family: Helvetica, Times New Roman, sans-serif;
 	font-size: 28px;
 }
@@ -13,14 +13,14 @@ p {
 a {
 	text-decoration: none;
 	font-family: Calibri, Times New Roman, sans-serif;
-	color: #fff;
+	color: white;
 }
 
 nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: #000;
+	background-color: black;
 	height: 50px;
 	padding: 8px 70px;
 }
