@@ -1,7 +1,7 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	background-color: #000000;
+	background: linear-gradient(to right,#3d3c3c, #000000, #000000) ;
 }
 
 p {
@@ -43,4 +43,8 @@ nav {
 
 p a:hover {
 	color: red;
+}
+
+#flips:hover {
+	transform: rotate(180deg);
 }
